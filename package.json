@@ -1,0 +1,22 @@
+{
+  "name": "automationassessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cautomation assessment\u001b[B\u001b[B\u001b[D",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saniobeno/AutomationAssessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saniobeno/AutomationAssessment/issues"
+  },
+  "homepage": "https://github.com/Saniobeno/AutomationAssessment#readme",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
