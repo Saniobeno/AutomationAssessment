@@ -117,6 +117,9 @@ function getBasePrice(itemNum, itemName) {
     cy.get(submitButton)
     .click();
 
+  cy.get('div[class=\'popup modal hide ng-scope in\']', { timeout : 30000 })
+    .should('not.exist');
+
   cy.get('div[class=\'alert alert-success\']', { timeout : 10000})
     .should('be.visible')
     .should('contain.text', 'Thanks ' + testForename + ', we appreciate your feedback.');
